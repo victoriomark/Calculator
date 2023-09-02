@@ -19,7 +19,7 @@ equal.addEventListener("click",()=>{
     }
     else{
         result = eval(screen.value);
-        screen.value = result
+        screen.value = `${screen.value} = ${result}`
     }
 
 
