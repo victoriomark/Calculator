@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #313866;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+
+}
+button{
+ padding: 10px;
+ border-radius: 5px;
+ border: none;
+ font-size: 1.3rem;
+  color: #4FA095;
+ font-weight: 800;
+ background-color: #313866;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+.numpad{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap: 10px;                
+    justify-content: center;
+    padding: 1rem 0;
+}
+   button:active{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+input{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 1.5rem;
+color: aliceblue;
+    background-color: #313866;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
